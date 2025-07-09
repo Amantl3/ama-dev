@@ -18,7 +18,7 @@
     <main>
       <section>
         <h2>🌍 About Me</h2>
-        <p>I'm from <strong>Francistown, Botswana</strong>. My curiosity for how things work led me into the world of computing. Today, I'm studying <strong>Applied Business Computing</strong> at BAC, Gaborone, and I’m passionate about creating tech that improves lives.</p>
+        <p>I'm from <strong>Francistown, Botswana</strong>. My curiosity for how things work led me into the world of computing. I'm studying <strong>Applied Business Computing</strong> at BAC, Gaborone, and I’m passionate about creating tech that improves lives.</p>
       </section>
 
       <section>
@@ -59,8 +59,8 @@
       </section>
 
       <section class="connect">
-        <h2>🤝 Connect with Me</h2>
-        <button id="showLinkedIn">Click to reveal my LinkedIn</button>
+        <h2>🤝 Let's Connect</h2>
+        <p id="revealText" class="reveal-text">Connect with me on LinkedIn</p>
         <div id="linkedinLink" class="hidden">
           🔗 <a href="https://www.linkedin.com/in/amantle-nthubu-970953284/" target="_blank">Visit my LinkedIn Profile</a>
         </div>
@@ -74,7 +74,7 @@
   </div>
 
   <script>
-    document.getElementById("showLinkedIn").addEventListener("click", function () {
+    document.getElementById("revealText").addEventListener("click", function () {
       document.getElementById("linkedinLink").classList.toggle("hidden");
     });
   </script>
