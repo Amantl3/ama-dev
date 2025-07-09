@@ -2,93 +2,68 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Amantle Nthubu | ama-dev</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="container">
+  <div class="site-wrapper">
     <header>
-      <h1>👋 Hi, I'm Amantle Nthubu</h1>
-      <p class="subtitle">Aspiring Tech Engineer |Applied Business Computing Student</p>
+      <div class="header-content">
+        <h1>👋 Hello, I'm <span class="highlight">Amantle Nthubu</span></h1>
+        <p>Applied Business Computing student | Tech enthusiast | 2025 Coda Engineering Resident</p>
+      </div>
     </header>
 
     <main>
       <section>
         <h2>🌍 About Me</h2>
-        <p>
-          From <strong>Francistown, Botswana</strong>. My curiosity and passion for tech shaped my path into computing. 
-          I'm currently studying <strong>Applied Business Computing</strong> at BAC, Gaborone.
-        </p>
+        <p>I'm from <strong>Francistown, Botswana</strong>. My journey into tech began with a love for creativity and curiosity. Now I'm studying <strong>Applied Business Computing</strong> at BAC, Gaborone.</p>
       </section>
 
       <section>
         <h2>🎓 Accomplishments</h2>
         <ul>
-          <li>2025 Africa Code Academy Engineering Residency Programme</li>
-          <li>Currently learning C# and Java</li>
+          <li>Member of the 2025 Africa Coda Academy Residency</li>
+          <li>Learning C# and Java</li>
+          <li>Skills in Python, JavaScript, HTML/CSS, SQL</li>
+          <li>Soft skills: Communication, Teamwork, Problem-solving</li>
         </ul>
       </section>
 
       <section>
-        <h2>💡 Skills</h2>
-        <ul class="skills">
-          <li>Python</li>
-          <li>JavaScript</li>
-          <li>HTML/CSS</li>
-          <li>Git</li>
-          <li>VS Code</li>
-          <li>SQL</li>
-        </ul>
-      </section>
-
-      <section>
-        <h2>🚀 Ambitions</h2>
-        <p>I want to:</p>
+        <h2>🚀 My Ambitions</h2>
+        <p>I hope to:</p>
         <ul>
-          <li>Build tech with real-world impact</li>
-          <li>Explore cybersecurity, data analytics & web dev</li>
-          <li>Empower African tech communities</li>
+          <li>Build impactful tech projects</li>
+          <li>Explore cybersecurity, data analytics, and web development</li>
+          <li>Make tech more accessible in Africa</li>
         </ul>
       </section>
 
       <section>
-        <h2>🧩 Fun Facts</h2>
-        <ul>
-          <li>I love gaming, crocheting, music, and reading</li>
-          <li>Teamwork makes my day!</li>
-          <li>Always testing new tech tools</li>
-        </ul>
+        <h2>🧩 Interests</h2>
+        <p>I enjoy gaming, crocheting, music, reading, traveling, and working on team projects.</p>
       </section>
 
-      <section>
-        <h2>🤝 Let's Connect</h2>
-        <button id="showLinkBtn">Click to View My LinkedIn</button>
+      <section class="connect">
+        <h2>🤝 Connect with Me</h2>
+        <button id="showLinkedIn">Click to reveal my LinkedIn</button>
         <div id="linkedinLink" class="hidden">
-          <p>
-            🔗 <a href="https://www.linkedin.com/in/amantle-nthubu-970953284/" target="_blank">Visit My LinkedIn Profile</a>
-          </p>
+          🔗 <a href="https://www.linkedin.com/in/amantle-nthubu-970953284/" target="_blank">Visit my LinkedIn Profile</a>
         </div>
       </section>
     </main>
 
     <footer>
-      <p>🌱 Let’s grow and learn together!</p>
-      <p>&copy; 2025 Amantle Nthubu</p>
+      <p>&copy; 2025 Amantle Nthubu — Built with 💖</p>
     </footer>
   </div>
 
   <script>
-    // Simple interactivity
-    const btn = document.getElementById("showLinkBtn");
-    const link = document.getElementById("linkedinLink");
-
-    btn.addEventListener("click", () => {
-      link.classList.toggle("hidden");
+    document.getElementById("showLinkedIn").addEventListener("click", function () {
+      document.getElementById("linkedinLink").classList.toggle("hidden");
     });
   </script>
 </body>
 </html>
-
-
-
