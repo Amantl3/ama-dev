@@ -7,13 +7,13 @@ Welcome to my GitHub profile! Here's a little about me so we can connect better.
 
 ## 🌍 Where I'm From
 
-I'm from francistown,the second cit of Botswana. I grew up in a community that valued education and creativity, and that's where my interest in tech began. My journey into computing was sparked by my curiosuty and overall obsession with tech and I haven’t looked back since.
+I'm from francistown,the second city of Botswana. I grew up in a community that valued education and creativity, and that's where my interest in tech began. My journey into computing was sparked by my curiosuty and overall obsession with tech and I haven’t looked back since.
 
 ---
 
 ## 🎓 Education & Accomplishments
 
-I'm currently pursuing a degree in Applied Business Computing]** at **[Your University]**.  
+I'm currently pursuing a degree in Applied Business Computing]** at BAC,Gaborone.  
 Some of the things I’m proud of include:
 - Currently a part of the 2025 Africa Coda Academy Engineering Residency Program.
 - Learning C# and Java
