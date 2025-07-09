@@ -1,5 +1,5 @@
 # ama-dev
-# 👋 Hi there, I'm [Your Name]!
+# 👋 Hi there, I'm Amantle Nthubu!
 
 Welcome to my GitHub profile! Here's a little about me so we can connect better.
 
