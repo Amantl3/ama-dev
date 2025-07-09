@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Amantle Nthubu | ama-dev</title>
   <link rel="stylesheet" href="style.css" />
 </head>
@@ -10,26 +10,28 @@
   <div class="container">
     <header>
       <h1>👋 Hi, I'm Amantle Nthubu</h1>
-      <p class="subtitle">Aspiring Tech Engineer | Applied Business Computing Student | Lifelong Learner</p>
+      <p class="subtitle">Aspiring Tech Engineer |Applied Business Computing Student</p>
     </header>
 
     <main>
       <section>
-        <h2>🌍 Where I'm From</h2>
+        <h2>🌍 About Me</h2>
         <p>
-          I'm from <strong>Francistown</strong>, the second city of Botswana. I grew up in a community that valued education and creativity. 
-          My journey into tech was sparked by curiosity and an obsession with innovation—and I haven’t looked back since.
+          From <strong>Francistown, Botswana</strong>. My curiosity and passion for tech shaped my path into computing. 
+          I'm currently studying <strong>Applied Business Computing</strong> at BAC, Gaborone.
         </p>
       </section>
 
       <section>
-        <h2>🎓 Education & Accomplishments</h2>
-        <p>I'm currently pursuing a degree in <strong>Applied Business Computing</strong> at BAC, Gaborone.</p>
+        <h2>🎓 Accomplishments</h2>
         <ul>
-          <li>🎓 Member of the 2025 <strong>Africa Coda Academy Engineering Residency</strong></li>
-          <li>📘 Learning C# and Java</li>
+          <li>2025 Africa Code Academy Engineering Residency Programme</li>
+          <li>Currently learning C# and Java</li>
         </ul>
-        <p><strong>Technical Skills:</strong></p>
+      </section>
+
+      <section>
+        <h2>💡 Skills</h2>
         <ul class="skills">
           <li>Python</li>
           <li>JavaScript</li>
@@ -38,43 +40,55 @@
           <li>VS Code</li>
           <li>SQL</li>
         </ul>
-        <p><strong>Soft Skills:</strong> Communication, teamwork, problem-solving</p>
       </section>
 
       <section>
-        <h2>🚀 My Ambitions</h2>
+        <h2>🚀 Ambitions</h2>
+        <p>I want to:</p>
         <ul>
-          <li>Build meaningful tech projects with real-world impact</li>
-          <li>Grow strong coding and collaboration skills</li>
-          <li>Explore cybersecurity, data analytics, and web development</li>
+          <li>Build tech with real-world impact</li>
+          <li>Explore cybersecurity, data analytics & web dev</li>
+          <li>Empower African tech communities</li>
         </ul>
-        <p>In the future, I hope to contribute to tech in Africa by making technology more accessible and empowering others to innovate.</p>
       </section>
 
       <section>
-        <h2>🤝 Connect with Me</h2>
-        <p>
-          Let's connect professionally!  
-          <a href="https://www.linkedin.com/in/amantle-nthubu-970953284/" target="_blank">Visit my LinkedIn profile →</a>
-        </p>
-      </section>
-
-      <section>
-        <h2>🧩 Fun Facts & Interests</h2>
+        <h2>🧩 Fun Facts</h2>
         <ul>
-          <li>I enjoy gaming, crocheting, reading, music, and travel</li>
-          <li>I love group projects and learning with others</li>
-          <li>Always up for trying new tech tools!</li>
+          <li>I love gaming, crocheting, music, and reading</li>
+          <li>Teamwork makes my day!</li>
+          <li>Always testing new tech tools</li>
         </ul>
+      </section>
+
+      <section>
+        <h2>🤝 Let's Connect</h2>
+        <button id="showLinkBtn">Click to View My LinkedIn</button>
+        <div id="linkedinLink" class="hidden">
+          <p>
+            🔗 <a href="https://www.linkedin.com/in/amantle-nthubu-970953284/" target="_blank">Visit My LinkedIn Profile</a>
+          </p>
+        </div>
       </section>
     </main>
 
     <footer>
-      <p>🌱 Thanks for stopping by. Let’s grow and learn together!</p>
+      <p>🌱 Let’s grow and learn together!</p>
       <p>&copy; 2025 Amantle Nthubu</p>
     </footer>
   </div>
+
+  <script>
+    // Simple interactivity
+    const btn = document.getElementById("showLinkBtn");
+    const link = document.getElementById("linkedinLink");
+
+    btn.addEventListener("click", () => {
+      link.classList.toggle("hidden");
+    });
+  </script>
 </body>
 </html>
+
 
 
